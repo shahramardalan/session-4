@@ -26,8 +26,8 @@ printPerson();
 
 function search(fname: string) {
   let result = personList.find((item) => item.firstName === fname);
-  if (result) console.log("find person");
-  else console.log("can't find person");
+  if (result) console.log("person found");
+  else console.log("person not found");
 }
 
 search("shahram")
