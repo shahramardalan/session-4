@@ -16,6 +16,7 @@ function addPerson(id: number, firstName: string, mobile: string) {
 
 addPerson(365, "shahram", "09331815199");
 addPerson(442, "maryam", "080180182");
+
 function printPerson() {
   if (!personList[0]) {
     return;
@@ -23,7 +24,3 @@ function printPerson() {
   console.log(personList);
 }
 printPerson();
-
-let result = personList.find((item) => item.firstName === "roza");
-if (result) console.log("find person");
-else console.log("can't find person");
